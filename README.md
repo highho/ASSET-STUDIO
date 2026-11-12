@@ -1,6 +1,79 @@
-# Asset Studio · 三维资产管理与预览系统
+# ASSET STUDIO · 本机三维资产工作台
 
-Vue 3 + TypeScript 前端，Go + SQLite 后端。本机单端口运行：模型文件落盘、元数据进数据库、浏览器负责解析与渲染。
+> 把散落在硬盘里的 GLB / GLTF / OBJ / STL / FBX / PMX / `.blend` 收进一个可检视、可装配、可对话的本地工作台。
+>
+> 模型、缩略图、元数据、版本和 AI 配置都留在你自己的电脑上；不是又一个在线模型预览页。
+
+![Vue 3](https://img.shields.io/badge/Vue-3-42b883?style=flat-square)
+![Go](https://img.shields.io/badge/Go-1.23%2B-00ADD8?style=flat-square)
+![SQLite](https://img.shields.io/badge/SQLite-WAL-003B57?style=flat-square)
+![Electron](https://img.shields.io/badge/Electron-Windows-47848F?style=flat-square)
+![Local first](https://img.shields.io/badge/local--first-yes-2E7D32?style=flat-square)
+
+<p align="center">
+  <img src="docs/screenshots/library.png" alt="ASSET STUDIO 资产库实机截图" width="780">
+</p>
+
+<p align="center"><b>资产库 · 20 个真实资产 / 157.5 MB / 全部在本机 · Dev-C++ / Win9x 经典灰</b></p>
+
+## 它是什么
+
+**把硬盘里的 3D 资产，变成一个能看、能摆、能问的工作台。**
+
+ASSET STUDIO 不是“上传一个模型、转一圈看看”的网页。它把导入、检视、代码建模、装配、版本管理和 AI 助手放进同一个本机应用，适合个人美术、独立游戏、MMD / Blender 素材库这类“文件很多、格式很杂、还经常要改”的场景。
+
+- **收得进来**：GLB / GLTF / OBJ / STL / FBX 直接拖入；PMX / `.blend` 交给本机 Blender 无头转换。外链 `.bin`、贴图、`.mtl` 会作为 sidecar 一起收进库。
+- **看得清楚**：模型 / 实景 / 代码三种模式共用同一个资产；几何统计、包围盒、缩略图、版本记录一页看完。
+- **摆得起来**：装配台支持父子层级、数值变换、三轴手柄、拖拽吸附、撤销 / 重做，最后把组合烘焙成一个新的 GLB。
+- **问得明白**：AI 助手读取当前资产库上下文；Ollama 本机直接聊，也支持 10 类 OpenAI 兼容 provider。分类只给建议，采纳后才改正式分类。
+- **带得走**：同一套 Vue 前端 + Go 服务可以打包成 Electron 桌面安装包，Windows 双击启动，不依赖本机 Go。
+- **有辨识度**：界面刻意做成 Dev-C++ / Win9x 经典灰——银灰面板、深蓝标题条、2px 立体凹凸边框、Tahoma / 宋体小字号；3D 视口保持黑底，不跟现代圆角渐变风。
+
+## 实机展示
+
+> 以下都是本机实际运行截图，不是渲染稿；数据来自当前的 20 个资产。
+
+<p align="center">
+  <img src="docs/screenshots/asset-detail.png" width="49%" alt="检视台：模型模式与几何统计">
+  <img src="docs/screenshots/ai-assistant.png" width="49%" alt="AI 助手：带着当前资产库上下文回答">
+</p>
+<p align="center"><b>检视台</b>：三模式、几何统计、版本记录　·　<b>AI 助手</b>：本机 Ollama 真实回答，不是写死的文案</p>
+
+<p align="center">
+  <img src="docs/screenshots/assembly.png" width="49%" alt="装配台：多零件、变换面板与三轴操作">
+  <img src="docs/screenshots/classify.png" width="49%" alt="分类工作台：批量分析与采纳">
+</p>
+<p align="center"><b>装配台</b>：父子层级、拖拽 / 手柄、撤销重做　·　<b>分类工作台</b>：批量分析、逐条采纳，AI 只给建议</p>
+
+<p align="center">
+  <img src="docs/screenshots/onboarding.png" width="49%" alt="首次启动：三步模型引导">
+  <img src="docs/screenshots/model-settings.png" width="49%" alt="模型配置：10 类 provider 与推荐值">
+</p>
+<p align="center"><b>首次启动</b>：三步引导，不配也能先跳过　·　<b>模型配置</b>：10 类 provider、推荐值、测试连接</p>
+
+## 能力地图
+
+| 你手里的问题 | ASSET STUDIO 的做法 |
+| --- | --- |
+| 模型散在几十个文件夹里，名字、格式、面数都记不清 | 拖入或扫描目录，按格式 / 分类 / 体积 / 面数筛选，缩略图自动补齐 |
+| 想快速看结构，不想每次打开 Blender | 浏览器内 3D 视口，模型 / 实景 / 代码三模式，自动旋转、线框、网格、复位、导出 PNG |
+| 想改一个零件，但不想重建整个模型 | 代码模式用 sand3d 真跑，支持源码 / 由模型反推；改完可就地更新并保留旧版本 |
+| 多个资产要摆成一个场景 | 装配台把零件摆位、挂父子层级、拖拽 / 手柄调整，最后导出为一个 GLB |
+| 资产太多，分类和描述写不过来 | AI 分类工作台批量给建议，逐条采纳；助手还能基于当前库存回答问题 |
+| 不想开命令行，也不想装 Go | Electron 桌面版双击启动，内置 Go 服务和前端，数据放在用户目录 |
+
+## 它怎么跑
+
+```mermaid
+flowchart LR
+  UI["Vue 3 前端 / Electron 窗口"] -->|REST /api| API["Go HTTP 服务"]
+  API --> DB[("SQLite<br/>assetstudio.db")]
+  API --> FILES["models / thumbs<br/>sidecars / versions"]
+  API --> BLENDER["本机 Blender / bpy"]
+  API --> AI["Ollama 或<br/>OpenAI 兼容服务"]
+```
+
+浏览器开发版和 Electron 桌面版共用同一份前端与 Go 服务；桌面版只是把服务编译成 `asset-studio-server.exe`，启动时拉起、关窗时结束。模型文件和数据库默认只写本机，只有你主动配置云端 AI provider 时，助手才会把裁剪后的资产摘要发给对应服务。
 
 ## 从 GitHub 获取
 
@@ -12,9 +85,9 @@ cd ASSET-STUDIO
 npm install
 ```
 
-仓库只提交源码、示例和前端资源；`server/data`（资产、SQLite、缩略图）、`dist`、`release`、`desktop/bin`、`node_modules`、`tools/mmd` 都在 `.gitignore` 里。第一次运行前先按下面「启动」装依赖并在本机生成数据目录。
+仓库只提交源码、示例和前端资源；`server/data`（资产、SQLite、缩略图）、`dist`、`release`、`desktop/bin`、`node_modules`、`tools/mmd` 都在 `.gitignore` 里。第一次运行前先按下面「快速开始」装依赖并在本机生成数据目录。
 
-## 启动
+## 快速开始（浏览器开发版）
 
 环境要求：Node 20+、**Go 1.23+**（`go.mod` 写明的下限；Go 1.21 会直接报版本不足，因为代码用了 `r.PathValue` 与新版 `ServeMux` 路由）。
 
