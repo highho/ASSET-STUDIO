@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>ASSET STUDIO</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; }
+    body {
+      display: grid;
+      place-items: center;
+      background: #c0c0c0;
+      color: #000;
+      font: 12px/1.5 Tahoma, "MS Sans Serif", SimSun, sans-serif;
+      user-select: none;
+    }
+    .frame {
+      width: 380px;
+      border: 2px solid;
+      border-color: #fff #404040 #404040 #fff;
+      background: #c0c0c0;
+      padding: 12px;
+    }
+    .title {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 1px solid #808080;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+    .title strong { font-size: 13px; letter-spacing: 0.4px; }
+    .title span { font: 9px/1 Consolas, monospace; color: #444; }
+    .copy { margin: 0 0 12px; font-size: 10px; color: #222; }
+    .bar {
+      height: 16px;
+      border: 1px solid;
+      border-color: #808080 #fff #fff #808080;
+      padding: 2px;
+      background: #dfdfdf;
+    }
+    .bar i {
+      display: block;
+      width: 42%;
+      height: 100%;
+      background: #000080;
+      animation: fill 1.4s steps(6, end) infinite alternate;
+    }
+    .hint { margin-top: 7px; font: 9px/1.4 Consolas, monospace; color: #333; }
+    @keyframes fill { from { width: 12%; } to { width: 88%; } }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <div class="title"><strong>ASSET STUDIO</strong><span>DESKTOP</span></div>
+    <p class="copy">正在启动本机资产服务与三维检视台…</p>
+    <div class="bar"><i></i></div>
+    <div class="hint">127.0.0.1 · local only</div>
+  </div>
+</body>
+</html>

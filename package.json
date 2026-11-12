@@ -1,0 +1,82 @@
+{
+  "name": "asset-studio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "main": "desktop/main.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "typecheck": "vue-tsc -b",
+    "test": "node --experimental-strip-types --test tests/sand3d.test.ts tests/convert.test.ts tests/format.test.ts tests/assembly.test.ts tests/thumb.test.ts tests/ai-chat.test.ts",
+    "check": "npm run typecheck && npm test && vite build",
+    "preview": "vite preview",
+    "desktop:build": "C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -ExecutionPolicy Bypass -File scripts/build-desktop.ps1",
+    "desktop:run": "electron desktop/main.cjs",
+    "desktop:dist": "npm run desktop:build && electron-builder --win nsis"
+  },
+  "dependencies": {
+    "@codemirror/lang-python": "^6.2.1",
+    "codemirror": "^6.0.2",
+    "three": "^0.187.0",
+    "vue": "^3.5.44",
+    "vue-router": "^5.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/three": "^0.187.0",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "@vue/tsconfig": "^0.9.1",
+    "electron": "^45.3.1",
+    "electron-builder": "^26.18.0",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.6",
+    "vue-tsc": "^3.3.14"
+  },
+  "build": {
+    "appId": "com.assetstudio.desktop",
+    "productName": "ASSET STUDIO",
+    "asar": true,
+    "npmRebuild": false,
+    "directories": {
+      "output": "release",
+      "buildResources": "desktop/build"
+    },
+    "files": [
+      "desktop/main.cjs",
+      "desktop/splash.html",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "dist",
+        "to": "web"
+      },
+      {
+        "from": "desktop/bin",
+        "to": "bin",
+        "filter": [
+          "asset-studio-server.exe"
+        ]
+      }
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "artifactName": "ASSET-STUDIO-${version}-Setup.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "ASSET STUDIO"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 本地数据：SQLite 库、模型文件、缩略图、外部资源（换设备时整个目录拷贝即可）
+server/data
+
+# 后端编译产物
+server/*.exe
+
+# 桌面套壳构建产物
+desktop/bin/
+release/
+desktop-build.log
+
+# 本机第三方运行时 / 目录联接（README 里有安装脚本；不要提交外部源码或缓存）
+tools/mmd/
+runtime/sand3d/
+__pycache__/
+*.pyc
+
+# 本机临时记录
+.vread.txt
+.scan.log
