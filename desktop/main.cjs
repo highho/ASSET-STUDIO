@@ -1,1 +1,225 @@
-Y29uc3QgeyBhcHAsIEJyb3dzZXJXaW5kb3csIGRpYWxvZywgTWVudSwgc2hlbGwgfSA9IHJlcXVpcmUoJ2VsZWN0cm9uJykKY29uc3QgcGF0aCA9IHJlcXVpcmUoJ25vZGU6cGF0aCcpCmNvbnN0IGZzID0gcmVxdWlyZSgnbm9kZTpmcycpCmNvbnN0IGh0dHAgPSByZXF1aXJlKCdub2RlOmh0dHAnKQpjb25zdCBuZXQgPSByZXF1aXJlKCdub2RlOm5ldCcpCmNvbnN0IHsgc3Bhd24gfSA9IHJlcXVpcmUoJ25vZGU6Y2hpbGRfcHJvY2VzcycpCgpjb25zdCBBUFBfVElUTEUgPSAnQVNTRVQgU1RVRElPJwpjb25zdCBBUFBfSUNPTiA9IHBhdGguam9pbihfX2Rpcm5hbWUsICdidWlsZCcsICdpY29uLnBuZycpCmNvbnN0IERFRkFVTFRfUE9SVCA9IE51bWJlcihwcm9jZXNzLmVudi5BU1NFVF9TVFVESU9fUE9SVCB8fCAxNzg5MCkKY29uc3QgREVWX1NFUlZFUl9VUkwgPSBwcm9jZXNzLmVudi5BU1NFVF9TVFVESU9fREVWX1NFUlZFUiB8fCAnaHR0cDovLzEyNy4wLjAuMTo4MDgwJwoKbGV0IG1haW5XaW5kb3cgPSBudWxsCmxldCBzcGxhc2hXaW5kb3cgPSBudWxsCmxldCBzZXJ2ZXJQcm9jZXNzID0gbnVsbApsZXQgc2VydmVyTG9nID0gbnVsbApsZXQgcXVpdHRpbmcgPSBmYWxzZQoKaWYgKCFhcHAucmVxdWVzdFNpbmdsZUluc3RhbmNlTG9jaygpKSB7CiAgYXBwLnF1aXQoKQp9IGVsc2UgewogIGFwcC5vbignc2Vjb25kLWluc3RhbmNlJywgKCkgPT4gewogICAgaWYgKG1haW5XaW5kb3cpIHsKICAgICAgaWYgKG1haW5XaW5kb3cuaXNNaW5pbWl6ZWQoKSkgbWFpbldpbmRvdy5yZXN0b3JlKCkKICAgICAgbWFpbldpbmRvdy5mb2N1cygpCiAgICB9CiAgfSkKCiAgYXBwLndoZW5SZWFkeSgpLnRoZW4oYm9vdHN0cmFwKS5jYXRjaCgoZXJyb3IpID0+IHsKICAgIHNob3dGYXRhbChlcnJvcikKICB9KQoKICBhcHAub24oJ3dpbmRvdy1hbGwtY2xvc2VkJywgKCkgPT4gewogICAgYXBwLnF1aXQoKQogIH0pCgogIGFwcC5vbignYmVmb3JlLXF1aXQnLCAoKSA9PiB7CiAgICBxdWl0dGluZyA9IHRydWUKICAgIHN0b3BTZXJ2ZXIoKQogIH0pCn0KCmFzeW5jIGZ1bmN0aW9uIGJvb3RzdHJhcCgpIHsKICBNZW51LnNldEFwcGxpY2F0aW9uTWVudShudWxsKQoKICBjb25zdCBkZXZVcmwgPSBwcm9jZXNzLmVudi5BU1NFVF9TVFVESU9fREVWX1VSTAogIGlmIChkZXZVcmwpIHsKICAgIGF3YWl0IG9wZW5BcHAoZGV2VXJsKQogICAgcmV0dXJuCiAgfQoKICBpZiAoIWFwcC5pc1BhY2thZ2VkICYmIChhd2FpdCBpc0hlYWx0aHkoREVWX1NFUlZFUl9VUkwpKSAmJiBwcm9jZXNzLmVudi5BU1NFVF9TVFVESU9fUkVVU0VfREVWX1NFUlZFUiAhPT0gJzAnKSB7CiAgICBhd2FpdCBvcGVuQXBwKERFVl9TRVJWRVJfVVJMKQogICAgcmV0dXJuCiAgfQoKICBpZiAoYXBwLmlzUGFja2FnZWQpIHNob3dTcGxhc2goKQoKICBjb25zdCBwb3J0ID0gYXdhaXQgZmluZEZyZWVQb3J0KERFRkFVTFRfUE9SVCkKICBjb25zdCBzZXJ2ZXJQYXRoID0gYXBwLmlzUGFja2FnZWQKICAgID8gcGF0aC5qb2luKHByb2Nlc3MucmVzb3VyY2VzUGF0aCwgJ2JpbicsICdhc3NldC1zdHVkaW8tc2VydmVyLmV4ZScpCiAgICA6IHBhdGguam9pbihfX2Rpcm5hbWUsICdiaW4nLCAnYXNzZXQtc3R1ZGlvLXNlcnZlci5leGUnKQoKICBpZiAoIWZzLmV4aXN0c1N5bmMoc2VydmVyUGF0aCkpIHsKICAgIHRocm93IG5ldyBFcnJvcihg5om+5LiN5Yiw5pys5py65pyN5Yqh56iL5bqP77yaJHtzZXJ2ZXJQYXRofVxu5YWI6L+Q6KGMIHNjcmlwdHNcXGJ1aWxkLWRlc2t0b3AucHMxIOeUn+aIkOahjOmdoueJiOacjeWKoeOAgmApCiAgfQoKICBjb25zdCBkYXRhRGlyID0gcmVzb2x2ZURhdGFEaXIoKQogIGZzLm1rZGlyU3luYyhkYXRhRGlyLCB7IHJlY3Vyc2l2ZTogdHJ1ZSB9KQogIGNvbnN0IHdlYkRpciA9IGFwcC5pc1BhY2thZ2VkID8gcGF0aC5qb2luKHByb2Nlc3MucmVzb3VyY2VzUGF0aCwgJ3dlYicpIDogcGF0aC5qb2luKF9fZGlybmFtZSwgJy4uJywgJ2Rpc3QnKQogIGlmICghZnMuZXhpc3RzU3luYyhwYXRoLmpvaW4od2ViRGlyLCAnaW5kZXguaHRtbCcpKSkgewogICAgdGhyb3cgbmV3IEVycm9yKGDmib7kuI3liLDliY3nq6/mnoTlu7rkuqfnianvvJoke3dlYkRpcn1cbuWFiOi/kOihjCBucG0gcnVuIGJ1aWxk44CCYCkKICB9CgogIGNvbnN0IGxvZ0RpciA9IGFwcC5nZXRQYXRoKCd1c2VyRGF0YScpCiAgZnMubWtkaXJTeW5jKGxvZ0RpciwgeyByZWN1cnNpdmU6IHRydWUgfSkKICBzZXJ2ZXJMb2cgPSBmcy5vcGVuU3luYyhwYXRoLmpvaW4obG9nRGlyLCAnc2VydmVyLmxvZycpLCAnYScpCgogIHNlcnZlclByb2Nlc3MgPSBzcGF3bihzZXJ2ZXJQYXRoLCBbCiAgICAnLWFkZHInLCBgMTI3LjAuMC4xOiR7cG9ydH1gLAogICAgJy1kYXRhJywgZGF0YURpciwKICAgICctd2ViJywgd2ViRGlyLAogIF0sIHsKICAgIGN3ZDogcGF0aC5kaXJuYW1lKHNlcnZlclBhdGgpLAogICAgd2luZG93c0hpZGU6IHRydWUsCiAgICBzdGRpbzogWydpZ25vcmUnLCBzZXJ2ZXJMb2csIHNlcnZlckxvZ10sCiAgfSkKCiAgc2VydmVyUHJvY2Vzcy5vbignZXJyb3InLCAoZXJyb3IpID0+IHsKICAgIGlmICghcXVpdHRpbmcpIHNob3dGYXRhbChlcnJvcikKICB9KQogIHNlcnZlclByb2Nlc3Mub24oJ2V4aXQnLCAoY29kZSkgPT4gewogICAgc2VydmVyUHJvY2VzcyA9IG51bGwKICAgIGlmICghcXVpdHRpbmcpIHNob3dGYXRhbChuZXcgRXJyb3IoYOacrOacuuacjeWKoeW3sumAgOWHuu+8iGV4aXQgJHtjb2Rlfe+8ieOAguaXpeW/l++8miR7cGF0aC5qb2luKGxvZ0RpciwgJ3NlcnZlci5sb2cnKX1gKSkKICB9KQoKICBjb25zdCBsb2NhbFVybCA9IGBodHRwOi8vMTI3LjAuMC4xOiR7cG9ydH1gCiAgYXdhaXQgd2FpdEZvckhlYWx0aChsb2NhbFVybCwgMzAwMDApCiAgYXdhaXQgb3BlbkFwcChsb2NhbFVybCkKICBjbG9zZVNwbGFzaCgpCn0KCmZ1bmN0aW9uIHJlc29sdmVEYXRhRGlyKCkgewogIGlmIChwcm9jZXNzLmVudi5BU1NFVF9TVFVESU9fREFUQSkgcmV0dXJuIHBhdGgucmVzb2x2ZShwcm9jZXNzLmVudi5BU1NFVF9TVFVESU9fREFUQSkKICBpZiAoYXBwLmlzUGFja2FnZWQpIHJldHVybiBwYXRoLmpvaW4oYXBwLmdldFBhdGgoJ3VzZXJEYXRhJyksICdkYXRhJykKICByZXR1cm4gcGF0aC5qb2luKF9fZGlybmFtZSwgJy4uJywgJ3NlcnZlcicsICdkYXRhJykKfQoKYXN5bmMgZnVuY3Rpb24gb3BlbkFwcCh1cmwpIHsKICBtYWluV2luZG93ID0gbmV3IEJyb3dzZXJXaW5kb3coewogICAgd2lkdGg6IDEyODAsCiAgICBoZWlnaHQ6IDg2MCwKICAgIG1pbldpZHRoOiA5MDAsCiAgICBtaW5IZWlnaHQ6IDYyMCwKICAgIHRpdGxlOiBBUFBfVElUTEUsCiAgICBpY29uOiBBUFBfSUNPTiwKICAgIGJhY2tncm91bmRDb2xvcjogJyNjMGMwYzAnLAogICAgYXV0b0hpZGVNZW51QmFyOiB0cnVlLAogICAgc2hvdzogZmFsc2UsCiAgICB3ZWJQcmVmZXJlbmNlczogewogICAgICBjb250ZXh0SXNvbGF0aW9uOiB0cnVlLAogICAgICBub2RlSW50ZWdyYXRpb246IGZhbHNlLAogICAgICBzYW5kYm94OiB0cnVlLAogICAgfSwKICB9KQoKICBtYWluV2luZG93Lm9uY2UoJ3JlYWR5LXRvLXNob3cnLCAoKSA9PiB7CiAgICBjbG9zZVNwbGFzaCgpCiAgICBtYWluV2luZG93LnNob3coKQogIH0pCiAgbWFpbldpbmRvdy5vbignY2xvc2VkJywgKCkgPT4gewogICAgbWFpbldpbmRvdyA9IG51bGwKICB9KQogIG1haW5XaW5kb3cud2ViQ29udGVudHMuc2V0V2luZG93T3BlbkhhbmRsZXIoKHsgdXJsOiB0YXJnZXQgfSkgPT4gewogICAgaWYgKHRhcmdldC5zdGFydHNXaXRoKCdodHRwOi8vMTI3LjAuMC4xJykgfHwgdGFyZ2V0LnN0YXJ0c1dpdGgoJ2h0dHA6Ly9sb2NhbGhvc3QnKSkgewogICAgICByZXR1cm4geyBhY3Rpb246ICdhbGxvdycgfQogICAgfQogICAgdm9pZCBzaGVsbC5vcGVuRXh0ZXJuYWwodGFyZ2V0KQogICAgcmV0dXJuIHsgYWN0aW9uOiAnZGVueScgfQogIH0pCiAgYXdhaXQgbWFpbldpbmRvdy5sb2FkVVJMKHVybCkKfQoKZnVuY3Rpb24gc2hvd1NwbGFzaCgpIHsKICBzcGxhc2hXaW5kb3cgPSBuZXcgQnJvd3NlcldpbmRvdyh7CiAgICB3aWR0aDogNDYwLAogICAgaGVpZ2h0OiAyNTAsCiAgICBmcmFtZTogZmFsc2UsCiAgICByZXNpemFibGU6IGZhbHNlLAogICAgbW92YWJsZTogZmFsc2UsCiAgICBpY29uOiBBUFBfSUNPTiwKICAgIGJhY2tncm91bmRDb2xvcjogJyNjMGMwYzAnLAogICAgc2hvdzogdHJ1ZSwKICAgIHdlYlByZWZlcmVuY2VzOiB7IGNvbnRleHRJc29sYXRpb246IHRydWUsIG5vZGVJbnRlZ3JhdGlvbjogZmFsc2UsIHNhbmRib3g6IHRydWUgfSwKICB9KQogIHNwbGFzaFdpbmRvdy5sb2FkRmlsZShwYXRoLmpvaW4oX19kaXJuYW1lLCAnc3BsYXNoLmh0bWwnKSkuY2F0Y2goKCkgPT4ge30pCn0KCmZ1bmN0aW9uIGNsb3NlU3BsYXNoKCkgewogIGlmIChzcGxhc2hXaW5kb3cgJiYgIXNwbGFzaFdpbmRvdy5pc0Rlc3Ryb3llZCgpKSBzcGxhc2hXaW5kb3cuZGVzdHJveSgpCiAgc3BsYXNoV2luZG93ID0gbnVsbAp9CgpmdW5jdGlvbiBzaG93RmF0YWwoZXJyb3IpIHsKICBjbG9zZVNwbGFzaCgpCiAgY29uc3QgbWVzc2FnZSA9IGVycm9yIGluc3RhbmNlb2YgRXJyb3IgPyBlcnJvci5tZXNzYWdlIDogU3RyaW5nKGVycm9yKQogIGRpYWxvZy5zaG93RXJyb3JCb3goYCR7QVBQX1RJVExFfSDlkK/liqjlpLHotKVgLCBtZXNzYWdlKQogIGFwcC5xdWl0KCkKfQoKZnVuY3Rpb24gc3RvcFNlcnZlcigpIHsKICBpZiAoc2VydmVyTG9nICE9PSBudWxsKSB7CiAgICB0cnkgeyBmcy5jbG9zZVN5bmMoc2VydmVyTG9nKSB9IGNhdGNoIHt9CiAgICBzZXJ2ZXJMb2cgPSBudWxsCiAgfQogIGlmICghc2VydmVyUHJvY2VzcykgcmV0dXJuCiAgY29uc3QgY2hpbGQgPSBzZXJ2ZXJQcm9jZXNzCiAgc2VydmVyUHJvY2VzcyA9IG51bGwKICB0cnkgeyBjaGlsZC5raWxsKCkgfSBjYXRjaCB7fQp9CgpmdW5jdGlvbiBpc0hlYWx0aHkoYmFzZVVybCkgewogIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSkgPT4gewogICAgY29uc3QgcmVxdWVzdCA9IGh0dHAuZ2V0KGAke2Jhc2VVcmx9L2FwaS9oZWFsdGhgLCB7IHRpbWVvdXQ6IDE1MDAgfSwgKHJlc3BvbnNlKSA9PiB7CiAgICAgIHJlc3BvbnNlLnJlc3VtZSgpCiAgICAgIHJlc29sdmUocmVzcG9uc2Uuc3RhdHVzQ29kZSA9PT0gMjAwKQogICAgfSkKICAgIHJlcXVlc3Qub24oJ3RpbWVvdXQnLCAoKSA9PiB7CiAgICAgIHJlcXVlc3QuZGVzdHJveSgpCiAgICAgIHJlc29sdmUoZmFsc2UpCiAgICB9KQogICAgcmVxdWVzdC5vbignZXJyb3InLCAoKSA9PiByZXNvbHZlKGZhbHNlKSkKICB9KQp9Cgphc3luYyBmdW5jdGlvbiB3YWl0Rm9ySGVhbHRoKGJhc2VVcmwsIHRpbWVvdXRNcykgewogIGNvbnN0IGRlYWRsaW5lID0gRGF0ZS5ub3coKSArIHRpbWVvdXRNcwogIHdoaWxlIChEYXRlLm5vdygpIDwgZGVhZGxpbmUpIHsKICAgIGlmIChhd2FpdCBpc0hlYWx0aHkoYmFzZVVybCkpIHJldHVybgogICAgYXdhaXQgc2xlZXAoMzAwKQogIH0KICB0aHJvdyBuZXcgRXJyb3IoYOacrOacuuacjeWKoeWcqCAke3RpbWVvdXRNcyAvIDEwMDB9IOenkuWGheayoeacieWwsee7qu+8miR7YmFzZVVybH1gKQp9CgpmdW5jdGlvbiBmaW5kRnJlZVBvcnQocHJlZmVycmVkKSB7CiAgcmV0dXJuIG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHsKICAgIGNvbnN0IHRyeUxpc3RlbiA9IChwb3J0LCBmYWxsYmFjaykgPT4gewogICAgICBjb25zdCBwcm9iZSA9IG5ldC5jcmVhdGVTZXJ2ZXIoKQogICAgICBwcm9iZS5vbmNlKCdlcnJvcicsICgpID0+IHsKICAgICAgICBpZiAoZmFsbGJhY2spIHRyeUxpc3RlbigwLCBmYWxzZSkKICAgICAgICBlbHNlIHJlamVjdChuZXcgRXJyb3IoJ+aJvuS4jeWIsOWPr+eUqOeahOacrOWcsOerr+WPoycpKQogICAgICB9KQogICAgICBwcm9iZS5vbmNlKCdsaXN0ZW5pbmcnLCAoKSA9PiB7CiAgICAgICAgY29uc3QgYWN0dWFsID0gcHJvYmUuYWRkcmVzcygpLnBvcnQKICAgICAgICBwcm9iZS5jbG9zZSgoKSA9PiByZXNvbHZlKGFjdHVhbCkpCiAgICAgIH0pCiAgICAgIHByb2JlLmxpc3Rlbihwb3J0LCAnMTI3LjAuMC4xJykKICAgIH0KICAgIHRyeUxpc3RlbihwcmVmZXJyZWQsIHRydWUpCiAgfSkKfQoKZnVuY3Rpb24gc2xlZXAobXMpIHsKICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUpID0+IHNldFRpbWVvdXQocmVzb2x2ZSwgbXMpKQp9Cg==
+const { app, BrowserWindow, dialog, Menu, shell } = require('electron')
+const path = require('node:path')
+const fs = require('node:fs')
+const http = require('node:http')
+const net = require('node:net')
+const { spawn } = require('node:child_process')
+
+const APP_TITLE = 'ASSET STUDIO'
+const APP_ICON = path.join(__dirname, 'build', 'icon.png')
+const DEFAULT_PORT = Number(process.env.ASSET_STUDIO_PORT || 17890)
+const DEV_SERVER_URL = process.env.ASSET_STUDIO_DEV_SERVER || 'http://127.0.0.1:8080'
+
+let mainWindow = null
+let splashWindow = null
+let serverProcess = null
+let serverLog = null
+let quitting = false
+
+if (!app.requestSingleInstanceLock()) {
+  app.quit()
+} else {
+  app.on('second-instance', () => {
+    if (mainWindow) {
+      if (mainWindow.isMinimized()) mainWindow.restore()
+      mainWindow.focus()
+    }
+  })
+
+  app.whenReady().then(bootstrap).catch((error) => {
+    showFatal(error)
+  })
+
+  app.on('window-all-closed', () => {
+    app.quit()
+  })
+
+  app.on('before-quit', () => {
+    quitting = true
+    stopServer()
+  })
+}
+
+async function bootstrap() {
+  Menu.setApplicationMenu(null)
+
+  const devUrl = process.env.ASSET_STUDIO_DEV_URL
+  if (devUrl) {
+    await openApp(devUrl)
+    return
+  }
+
+  if (!app.isPackaged && (await isHealthy(DEV_SERVER_URL)) && process.env.ASSET_STUDIO_REUSE_DEV_SERVER !== '0') {
+    await openApp(DEV_SERVER_URL)
+    return
+  }
+
+  if (app.isPackaged) showSplash()
+
+  const port = await findFreePort(DEFAULT_PORT)
+  const serverPath = app.isPackaged
+    ? path.join(process.resourcesPath, 'bin', 'asset-studio-server.exe')
+    : path.join(__dirname, 'bin', 'asset-studio-server.exe')
+
+  if (!fs.existsSync(serverPath)) {
+    throw new Error(`找不到本机服务程序：${serverPath}\n先运行 scripts\\build-desktop.ps1 生成桌面版服务。`)
+  }
+
+  const dataDir = resolveDataDir()
+  fs.mkdirSync(dataDir, { recursive: true })
+  const webDir = app.isPackaged ? path.join(process.resourcesPath, 'web') : path.join(__dirname, '..', 'dist')
+  if (!fs.existsSync(path.join(webDir, 'index.html'))) {
+    throw new Error(`找不到前端构建产物：${webDir}\n先运行 npm run build。`)
+  }
+
+  const logDir = app.getPath('userData')
+  fs.mkdirSync(logDir, { recursive: true })
+  serverLog = fs.openSync(path.join(logDir, 'server.log'), 'a')
+
+  serverProcess = spawn(serverPath, [
+    '-addr', `127.0.0.1:${port}`,
+    '-data', dataDir,
+    '-web', webDir,
+  ], {
+    cwd: path.dirname(serverPath),
+    windowsHide: true,
+    stdio: ['ignore', serverLog, serverLog],
+  })
+
+  serverProcess.on('error', (error) => {
+    if (!quitting) showFatal(error)
+  })
+  serverProcess.on('exit', (code) => {
+    serverProcess = null
+    if (!quitting) showFatal(new Error(`本机服务已退出（exit ${code}）。日志：${path.join(logDir, 'server.log')}`))
+  })
+
+  const localUrl = `http://127.0.0.1:${port}`
+  await waitForHealth(localUrl, 30000)
+  await openApp(localUrl)
+  closeSplash()
+}
+
+function resolveDataDir() {
+  if (process.env.ASSET_STUDIO_DATA) return path.resolve(process.env.ASSET_STUDIO_DATA)
+  if (app.isPackaged) return path.join(app.getPath('userData'), 'data')
+  return path.join(__dirname, '..', 'server', 'data')
+}
+
+async function openApp(url) {
+  mainWindow = new BrowserWindow({
+    width: 1280,
+    height: 860,
+    minWidth: 900,
+    minHeight: 620,
+    title: APP_TITLE,
+    icon: APP_ICON,
+    backgroundColor: '#c0c0c0',
+    autoHideMenuBar: true,
+    show: false,
+    webPreferences: {
+      contextIsolation: true,
+      nodeIntegration: false,
+      sandbox: true,
+    },
+  })
+
+  mainWindow.once('ready-to-show', () => {
+    closeSplash()
+    mainWindow.show()
+  })
+  mainWindow.on('closed', () => {
+    mainWindow = null
+  })
+  mainWindow.webContents.setWindowOpenHandler(({ url: target }) => {
+    if (target.startsWith('http://127.0.0.1') || target.startsWith('http://localhost')) {
+      return { action: 'allow' }
+    }
+    void shell.openExternal(target)
+    return { action: 'deny' }
+  })
+  await mainWindow.loadURL(url)
+}
+
+function showSplash() {
+  splashWindow = new BrowserWindow({
+    width: 460,
+    height: 250,
+    frame: false,
+    resizable: false,
+    movable: false,
+    icon: APP_ICON,
+    backgroundColor: '#c0c0c0',
+    show: true,
+    webPreferences: { contextIsolation: true, nodeIntegration: false, sandbox: true },
+  })
+  splashWindow.loadFile(path.join(__dirname, 'splash.html')).catch(() => {})
+}
+
+function closeSplash() {
+  if (splashWindow && !splashWindow.isDestroyed()) splashWindow.destroy()
+  splashWindow = null
+}
+
+function showFatal(error) {
+  closeSplash()
+  const message = error instanceof Error ? error.message : String(error)
+  dialog.showErrorBox(`${APP_TITLE} 启动失败`, message)
+  app.quit()
+}
+
+function stopServer() {
+  if (serverLog !== null) {
+    try { fs.closeSync(serverLog) } catch {}
+    serverLog = null
+  }
+  if (!serverProcess) return
+  const child = serverProcess
+  serverProcess = null
+  try { child.kill() } catch {}
+}
+
+function isHealthy(baseUrl) {
+  return new Promise((resolve) => {
+    const request = http.get(`${baseUrl}/api/health`, { timeout: 1500 }, (response) => {
+      response.resume()
+      resolve(response.statusCode === 200)
+    })
+    request.on('timeout', () => {
+      request.destroy()
+      resolve(false)
+    })
+    request.on('error', () => resolve(false))
+  })
+}
+
+async function waitForHealth(baseUrl, timeoutMs) {
+  const deadline = Date.now() + timeoutMs
+  while (Date.now() < deadline) {
+    if (await isHealthy(baseUrl)) return
+    await sleep(300)
+  }
+  throw new Error(`本机服务在 ${timeoutMs / 1000} 秒内没有就绪：${baseUrl}`)
+}
+
+function findFreePort(preferred) {
+  return new Promise((resolve, reject) => {
+    const tryListen = (port, fallback) => {
+      const probe = net.createServer()
+      probe.once('error', () => {
+        if (fallback) tryListen(0, false)
+        else reject(new Error('找不到可用的本地端口'))
+      })
+      probe.once('listening', () => {
+        const actual = probe.address().port
+        probe.close(() => resolve(actual))
+      })
+      probe.listen(port, '127.0.0.1')
+    }
+    tryListen(preferred, true)
+  })
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms))
+}

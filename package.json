@@ -1,1 +1,88 @@
-ewogICJuYW1lIjogImFzc2V0LXN0dWRpbyIsCiAgInByaXZhdGUiOiB0cnVlLAogICJ2ZXJzaW9uIjogIjAuMS4xIiwKICAiZGVzY3JpcHRpb24iOiAiQVNTRVQgU1RVRElPIMK3IOacrOacuuS4iee7tOi1hOS6p+W3peS9nOWPsCIsCiAgImF1dGhvciI6ICJoaWdoaG8iLAogICJ0eXBlIjogIm1vZHVsZSIsCiAgIm1haW4iOiAiZGVza3RvcC9tYWluLmNqcyIsCiAgInNjcmlwdHMiOiB7CiAgICAiZGV2IjogInZpdGUiLAogICAgImJ1aWxkIjogInZ1ZS10c2MgLWIgJiYgdml0ZSBidWlsZCIsCiAgICAidHlwZWNoZWNrIjogInZ1ZS10c2MgLWIiLAogICAgInRlc3QiOiAibm9kZSAtLWV4cGVyaW1lbnRhbC1zdHJpcC10eXBlcyAtLXRlc3QgdGVzdHMvc2FuZDNkLnRlc3QudHMgdGVzdHMvY29udmVydC50ZXN0LnRzIHRlc3RzL2Zvcm1hdC50ZXN0LnRzIHRlc3RzL2Fzc2VtYmx5LnRlc3QudHMgdGVzdHMvdGh1bWIudGVzdC50cyB0ZXN0cy9haS1jaGF0LnRlc3QudHMiLAogICAgImNoZWNrIjogIm5wbSBydW4gdHlwZWNoZWNrICYmIG5wbSB0ZXN0ICYmIHZpdGUgYnVpbGQiLAogICAgInByZXZpZXciOiAidml0ZSBwcmV2aWV3IiwKICAgICJkZXNrdG9wOmJ1aWxkIjogIkM6L1dpbmRvd3MvU3lzdGVtMzIvV2luZG93c1Bvd2VyU2hlbGwvdjEuMC9wb3dlcnNoZWxsLmV4ZSAtRXhlY3V0aW9uUG9saWN5IEJ5cGFzcyAtRmlsZSBzY3JpcHRzL2J1aWxkLWRlc2t0b3AucHMxIiwKICAgICJkZXNrdG9wOnJ1biI6ICJlbGVjdHJvbiBkZXNrdG9wL21haW4uY2pzIiwKICAgICJkZXNrdG9wOmRpc3QiOiAibnBtIHJ1biBkZXNrdG9wOmJ1aWxkICYmIGVsZWN0cm9uLWJ1aWxkZXIgLS13aW4gbnNpcyIKICB9LAogICJkZXBlbmRlbmNpZXMiOiB7CiAgICAiQGNvZGVtaXJyb3IvbGFuZy1weXRob24iOiAiXjYuMi4xIiwKICAgICJjb2RlbWlycm9yIjogIl42LjAuMiIsCiAgICAidGhyZWUiOiAiXjAuMTg3LjAiLAogICAgInZ1ZSI6ICJeMy41LjQ0IiwKICAgICJ2dWUtcm91dGVyIjogIl41LjUuMCIKICB9LAogICJkZXZEZXBlbmRlbmNpZXMiOiB7CiAgICAiQHR5cGVzL25vZGUiOiAiXjI0LjE5LjIiLAogICAgIkB0eXBlcy90aHJlZSI6ICJeMC4xODcuMCIsCiAgICAiQHZpdGVqcy9wbHVnaW4tdnVlIjogIl42LjAuMTAiLAogICAgIkB2dWUvdHNjb25maWciOiAiXjAuOS4xIiwKICAgICJlbGVjdHJvbiI6ICJeNDUuMy4xIiwKICAgICJlbGVjdHJvbi1idWlsZGVyIjogIl4yNi4xOC4wIiwKICAgICJ0eXBlc2NyaXB0IjogIn42LjAuMyIsCiAgICAidml0ZSI6ICJeOC4zLjYiLAogICAgInZ1ZS10c2MiOiAiXjMuMy4xNCIKICB9LAogICJidWlsZCI6IHsKICAgICJhcHBJZCI6ICJjb20uYXNzZXRzdHVkaW8uZGVza3RvcCIsCiAgICAicHJvZHVjdE5hbWUiOiAiQVNTRVQgU1RVRElPIiwKICAgICJhc2FyIjogdHJ1ZSwKICAgICJucG1SZWJ1aWxkIjogZmFsc2UsCiAgICAiZGlyZWN0b3JpZXMiOiB7CiAgICAgICJvdXRwdXQiOiAicmVsZWFzZSIsCiAgICAgICJidWlsZFJlc291cmNlcyI6ICJkZXNrdG9wL2J1aWxkIgogICAgfSwKICAgICJmaWxlcyI6IFsKICAgICAgImRlc2t0b3AvbWFpbi5janMiLAogICAgICAiZGVza3RvcC9zcGxhc2guaHRtbCIsCiAgICAgICJkZXNrdG9wL2J1aWxkL2ljb24ucG5nIiwKICAgICAgInBhY2thZ2UuanNvbiIKICAgIF0sCiAgICAiZXh0cmFSZXNvdXJjZXMiOiBbCiAgICAgIHsKICAgICAgICAiZnJvbSI6ICJkaXN0IiwKICAgICAgICAidG8iOiAid2ViIgogICAgICB9LAogICAgICB7CiAgICAgICAgImZyb20iOiAiZGVza3RvcC9iaW4iLAogICAgICAgICJ0byI6ICJiaW4iLAogICAgICAgICJmaWx0ZXIiOiBbCiAgICAgICAgICAiYXNzZXQtc3R1ZGlvLXNlcnZlci5leGUiCiAgICAgICAgXQogICAgICB9CiAgICBdLAogICAgIndpbiI6IHsKICAgICAgImljb24iOiAiaWNvbi5pY28iLAogICAgICAidGFyZ2V0IjogWwogICAgICAgIHsKICAgICAgICAgICJ0YXJnZXQiOiAibnNpcyIsCiAgICAgICAgICAiYXJjaCI6IFsKICAgICAgICAgICAgIng2NCIKICAgICAgICAgIF0KICAgICAgICB9CiAgICAgIF0sCiAgICAgICJhcnRpZmFjdE5hbWUiOiAiQVNTRVQtU1RVRElPLSR7dmVyc2lvbn0tU2V0dXAuJHtleHR9IgogICAgfSwKICAgICJuc2lzIjogewogICAgICAib25lQ2xpY2siOiBmYWxzZSwKICAgICAgImFsbG93VG9DaGFuZ2VJbnN0YWxsYXRpb25EaXJlY3RvcnkiOiB0cnVlLAogICAgICAiY3JlYXRlRGVza3RvcFNob3J0Y3V0IjogdHJ1ZSwKICAgICAgImNyZWF0ZVN0YXJ0TWVudVNob3J0Y3V0IjogdHJ1ZSwKICAgICAgInNob3J0Y3V0TmFtZSI6ICJBU1NFVCBTVFVESU8iLAogICAgICAiaW5zdGFsbGVySWNvbiI6ICJpY29uLmljbyIsCiAgICAgICJpbnN0YWxsZXJIZWFkZXJJY29uIjogImljb24uaWNvIgogICAgfQogIH0KfQo=
+{
+  "name": "asset-studio",
+  "private": true,
+  "version": "0.1.1",
+  "description": "ASSET STUDIO · 本机三维资产工作台",
+  "author": "highho",
+  "type": "module",
+  "main": "desktop/main.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "typecheck": "vue-tsc -b",
+    "test": "node --experimental-strip-types --test tests/sand3d.test.ts tests/convert.test.ts tests/format.test.ts tests/assembly.test.ts tests/thumb.test.ts tests/ai-chat.test.ts",
+    "check": "npm run typecheck && npm test && vite build",
+    "preview": "vite preview",
+    "desktop:build": "C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -ExecutionPolicy Bypass -File scripts/build-desktop.ps1",
+    "desktop:run": "electron desktop/main.cjs",
+    "desktop:dist": "npm run desktop:build && electron-builder --win nsis"
+  },
+  "dependencies": {
+    "@codemirror/lang-python": "^6.2.1",
+    "codemirror": "^6.0.2",
+    "three": "^0.187.0",
+    "vue": "^3.5.44",
+    "vue-router": "^5.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/three": "^0.187.0",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "@vue/tsconfig": "^0.9.1",
+    "electron": "^45.3.1",
+    "electron-builder": "^26.18.0",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.6",
+    "vue-tsc": "^3.3.14"
+  },
+  "build": {
+    "appId": "com.assetstudio.desktop",
+    "productName": "ASSET STUDIO",
+    "asar": true,
+    "npmRebuild": false,
+    "directories": {
+      "output": "release",
+      "buildResources": "desktop/build"
+    },
+    "files": [
+      "desktop/main.cjs",
+      "desktop/splash.html",
+      "desktop/build/icon.png",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "dist",
+        "to": "web"
+      },
+      {
+        "from": "desktop/bin",
+        "to": "bin",
+        "filter": [
+          "asset-studio-server.exe"
+        ]
+      }
+    ],
+    "win": {
+      "icon": "icon.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "artifactName": "ASSET-STUDIO-${version}-Setup.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "ASSET STUDIO",
+      "installerIcon": "icon.ico",
+      "installerHeaderIcon": "icon.ico"
+    }
+  }
+}
